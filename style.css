@@ -1,0 +1,253 @@
+
+ .logo {
+        font-weight: bold;
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .hero-banner{
+    padding: 40px 0 0;
+    background-color: rgb(250, 247, 247);
+    height: 100%;
+    
+   
+ }
+
+ .hero-banner img{
+    width: 100%;
+    border-radius: 10px;
+ 
+ }
+
+ .img-1 img, .img-2 img, .img-4 img, .img-5 img{
+    height: 33vh;
+    object-fit: cover;
+   
+ 
+ 
+ }
+
+ .img-3 img{
+    height: 70vh;
+    object-fit: cover;
+  
+
+  
+ }
+ .img-1, .img-2, .img-3, .img-4, .img-5{
+    position: relative;
+   
+  
+   
+    
+ }
+ .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #0000005b, rgba(27, 26, 26, 0));
+    border-radius: 10px;
+    transition: 0.5s ease;
+    transform: scale(0.993);
+ }
+
+ .img-1:hover, .text img {
+    transition: 0.5s ease-in;
+    transform: scale(0.993);
+    cursor: pointer;
+   
+  
+ }
+
+ .img-2:hover, .text img{
+    transition: 0.5s ease-in; 
+    transform: scale(0.993);
+    cursor: pointer;
+ }
+ .img-3:hover, .text-3 img{
+    transition: 0.5s ease-in;
+    transform: scale(0.993);
+    cursor: pointer;
+  
+ }
+ .img-4:hover, .text img{
+    transition: 0.5s ease;
+    transform: scale(0.993);
+    cursor: pointer;
+ }
+ .img-5:hover , .text img{
+    transition: 0.5s ease;
+    transform: scale(0.993);
+    cursor: pointer;
+ }
+
+.text p{
+   color: white;
+   padding: 15px;
+  
+}
+
+.text-3 p{
+ 
+   color: white;
+   padding: 15px;
+}
+.text h6{
+   font-size: small;
+   color: rgb(228, 224, 224);
+   padding: 35px 0 0 15px;
+   margin-top: 10.2vh;
+   margin-bottom: -2vh;
+
+}
+.text-3 h6{
+   font-size: small;
+   color: rgb(228, 224, 224);
+   padding: 35px 0 0 15px;
+   margin-top: 53vh;
+   margin-bottom: -2vh;
+
+}
+
+
+.second-banner{
+   padding: 20px 0 0 0;
+   height: 100%;
+   
+}
+
+.second-banner img{
+   height: 65vh;
+   width: 100%;
+   padding-right: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+   object-fit: cover;
+}
+
+.business {
+   position: relative;
+   top:28px;
+   font-size: 1.3rem;
+
+}
+
+button{
+   border: none;
+   text-decoration: underline;
+   background-color: white;
+}
+.button {
+   position: relative;
+   text-align: end;
+}
+
+.second-layer3 h6{
+     color: rgb(2, 2, 79);
+     cursor: pointer;
+}
+
+.second-layer1, .second-layer2 h4{
+   color: rgb(2, 2, 79);
+   cursor: pointer;
+}
+.second-layer3, .second-layer2, .second-layer1 p{
+   color: grey;
+}
+
+.date{
+   color: grey;
+   margin-top: 2rem;
+}
+
+.read {
+   border: 2px solid black;
+   border-radius: 5px;
+   text-decoration: none;
+   font-size: small;
+   color: black;
+   font-weight: 600;
+     
+}
+a{
+   color: black;
+}
+.new{
+   border: 1px solid black;
+   text-decoration: none;
+}
+
+
+.third-banner{
+   background-color: rgb(250, 247, 247);
+   margin-top: 50px;
+}
+.third-banner img{
+   /* margin-top: 20px; */
+   border-radius: 10px;
+}
+
+
+.third-layer1, .third-layer2, .third-layer3, .third-layer4 h6{
+   color: rgb(2, 2, 79);
+}
+
+p{
+   color: grey;
+}
+
+.politics-section{
+   padding: 40px 0 0;
+}
+
+.person{
+   width: 25px;
+   border-radius: 50%;
+}
+.man{
+   
+   color: grey;
+}
+#row{
+   font-size: large;
+   margin-top: 40px;
+}
+
+.politics-section a p{
+   color: rgb(2, 2, 79);
+   font-size: 14px;
+   margin-top: 10px;
+  
+}
+
+
+.politics-section img{
+   border-radius: 10px;
+   margin-top: 30px;
+}
+.detail{
+   font-size: 12px;
+   margin-top: 35px;
+}
+
+.hero-banner{
+   padding: 40px 0 0;
+   background-color: rgb(250, 247, 247);
+   height: 100%;
+   
+  
+}
+
+.travel-banner img{
+   width: 100%;
+   border-radius: 10px;
+
+}
+
+.img-1 img, .img-2 img, .img-4 img, .img-5 img{
+   height: 33vh;
+   object-fit: cover;
+}
